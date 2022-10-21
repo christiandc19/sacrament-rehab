@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Viga&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Nothing+You+Could+Do&family=Poppins&display=swap');/* 
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, .2);
+}
+
+.hero:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/hero-bg2.jpg')no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+} */
+
+
+.video-bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.bg-overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.subtitle {
+    letter-spacing: .5rem;
+}
+
+.hero .container {
+    padding-top: 10rem;
+}
+
+.hero .content {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 5rem;
+    margin-left: -4rem;
+}
+
+.hero h1 {
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    letter-spacing: .5rem;
+    font-family: 'Itim', cursive;
+    text-align: left;
+    line-height: 6rem;
+}
+
+.hero blockquote {
+    font-size: 1.4em;
+    width:100%;
+    font-family:Open Sans;
+    font-style:italic;
+    color: white;
+    text-align: left;
+}
+
+.hero h2 {
+    color: #f8f8f8;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero p {
+    color: yellow;
+    margin-bottom: 3rem;
+}
+
+.hands {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+@media screen and (max-width:940px) {
+
+    .video-bg {
+    width: 100%;
+    height: 80vh;
+    }
+
+    .bg-overlay {
+        width: 100%;
+        height: 80vh;    }
+
+    .hero .container {
+        padding-top: 0;
+    }
+
+   .hero .content {
+    padding: 2rem;
+    margin-left: 0rem;
+   } 
+
+   .hero h1 {
+    color: FFC300;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 3.5rem;
+    padding-top: 13rem;
+}
+
+.hero h2 {
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    margin-top: -.5rem;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.hero blockquote {
+    text-align: center;
+}
+
+.hero button {
+    margin: auto;
+}
+
+}
+
+
+
+
+

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.services .content {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.serviceCards {
+    margin: auto;
+}
+
+.hr-container {
+    width: 80%;
+    margin: auto;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.service-cards-btn button {
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.service-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.service-3 span {
+    font-size: 2rem;
+}
+
+.service-3-description {
+    width: 50%;
+    text-align: justify; 
+    margin-top: 1rem;   
+}
+
+.service-3-image {
+    width: 40%; 
+}
+
+.service-3 .therapy {
+    width: 60%; 
+
+}
+
+.service-3-image img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+
+.services h2, .services-third h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.services-third p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Poppins';
+}
+
+
+/* Third Section */
+
+.third-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.quote {
+    width: 100%;
+    text-align: center;
+    padding: 8rem 10rem;
+}
+
+
+.third-section-image img {
+    border-radius: 2rem;
+    width: 100%;
+    padding: 5rem 10rem;
+}
+
+/* End of Third Section */
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+   .services .content {
+    margin-left: 1rem;
+   } 
+
+   .third-section-image img {
+    display: none;
+}
+
+.third-section {
+    flex-wrap: wrap;
+}
+
+ .third-section .quote {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.services .content {
+margin-top: 2rem;
+}
+
+.services-third p {
+    font-size: 18px;
+    margin-top: -1rem;
+}
+
+
+.services-third h2 {
+    font-size: 27px;
+}
+
+.third-section .quote p {
+    font-size: 15px;
+    margin-top: -2rem;
+}
+
+.service-3 {
+    margin: 1rem;
+
+}
+
+.service-3 img {
+    display: none;
+}
+
+.service-3-description {
+    width: 100%;
+    text-align: justify; 
+    margin-top: 0;
+}
+
+}
+
+
+
+
