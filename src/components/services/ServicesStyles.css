@@ -26,11 +26,11 @@
     margin: auto;
     margin-bottom: 4rem;
 }
+
 .service-3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 5rem;
 }
 
 

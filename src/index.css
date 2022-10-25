@@ -5,6 +5,7 @@
   --primary-dark: #0d2154;
   --secondary-color: #5BB318;
 }
+
 span {
   color: var(--primary-color);
 }

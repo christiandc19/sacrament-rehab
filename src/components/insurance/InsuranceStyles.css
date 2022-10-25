@@ -9,7 +9,6 @@
 .insurance:before {
     content: '';
     position: absolute;
-    background: url('../../assets/insurance-bg.jpg') no-repeat center center/cover;
     height: 70vh;
     width: 100%;
     z-index: -1;
