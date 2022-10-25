@@ -15,7 +15,8 @@
 
 .about-section1 h2 {
     text-align: center;
-}
+    color: var(--primary-color);
+    }
 
 .about-section1  {
     text-align: center;
@@ -39,8 +40,9 @@
     padding: 1rem;
 }
 
-.about h2 {
-    color: #f8f8f8;
+.about h1 {
+    color: var(--primary-color);
+    text-align: left;
 }
 
 .about p {

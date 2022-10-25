@@ -17,16 +17,13 @@ span {
 
 body {
   margin: 0;
-  font-family: 'Roboto', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -41,14 +38,20 @@ a {
 p {
   font-size: 1.2rem;
   line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
 }
 
 .container {
@@ -74,6 +77,10 @@ button {
 button:hover {
   background-color: #47dcff;
   border: 1px solid #47dcff;
+}
+
+span {
+  color: var(--primary-color);
 }
 
 @media screen and (max-width: 940px) {

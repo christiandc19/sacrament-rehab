@@ -1,29 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Viga&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Nothing+You+Could+Do&family=Poppins&display=swap');/* 
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-
-.hero {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: rgba(0, 0, 0, .2);
-}
-
-.hero:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/hero-bg2.jpg')no-repeat center center/cover;
-    height: 100vh;
-    width: 100%;
-    z-index: -1;
-} */
-
 
 .video-bg {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: absolute;
     top: 0;
     object-fit: cover;
@@ -32,7 +11,7 @@
 
 .bg-overlay {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: -1;
@@ -42,9 +21,6 @@
     letter-spacing: .5rem;
 }
 
-.hero .container {
-    padding-top: 10rem;
-}
 
 .hero .content {
     height: 75vh;
@@ -52,17 +28,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-bottom: 5rem;
     margin-left: -4rem;
+
 }
 
 .hero h1 {
     color: rgb(255, 255, 255);
     font-size: 7rem;
     letter-spacing: .5rem;
-    font-family: 'Itim', cursive;
     text-align: left;
     line-height: 6rem;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .hero blockquote {
@@ -86,9 +63,7 @@
     margin-bottom: 3rem;
 }
 
-.hands {
-    font-family: 'Nothing You Could Do', cursive;
-}
+
 
 @media screen and (max-width:940px) {
 

@@ -9,7 +9,7 @@ const Mission = () => {
             <div className="container">
                 <div className="content">
                     <Fade right>
-                    <h2><span>Our</span> Mission</h2>
+                    <h1>Our Mission</h1>
                     </Fade>
                     <Fade left>
                     <p>We strive to make overcoming addiction achievable by focusing on your comfort and safety above all. We use evidence-based medical practices and a holistic, comprehensive approach to healing through guidance, compassion, and community.</p>

@@ -1,5 +1,6 @@
 import React, {useRef} from "react";
 import Fade from 'react-reveal/Fade';
+import VerificationForm from '../../assets/verificationForm.pdf'
 import { BsFillPinMapFill } from 'react-icons/bs';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
@@ -54,13 +55,13 @@ const Contact = () => {
                 <div className="location">
                   <h1 className="location-header">Get In Touch</h1><br/>
                   <p><AiOutlinePhone /> +1 (844) 311-1705  </p><br/>
-                  <p><AiOutlineMail /> info@getrealrecovery.com  </p><br/>
+                  <p><AiOutlineMail /> info@sacramentorehab.com  </p><br/>
                   <p><BsFillPinMapFill /> 30290 Rancho Viejo Rd, San Juan Capistrano California</p><br/>
                   <p className="admission"> Please call our admission department or fill out the form if you have any questions.</p>
                 </div>
 
                 <div>
-                <iframe  title='map' width="450" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=30290%20Rancho%20Viejo%20Rd,%20San%20Juan%20Capistrano%20California+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe>
+                <iframe  title='map' width="750" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=30290%20Rancho%20Viejo%20Rd,%20San%20Juan%20Capistrano%20California+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe>
                 </div>
           </div>
 

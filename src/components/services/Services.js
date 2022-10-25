@@ -9,7 +9,7 @@ import Services1 from '../../assets/mental-illness.png'
 import Services2 from '../../assets/substance-use.png'
 import Services3 from '../../assets/addiction-treatment.png'
 import Services4 from '../../assets/employment-assistance.png'
-import Service3 from '../../assets/treatment-image-1.jpg'
+import Service3 from '../../assets/home-image1.jpg'
 
 
 const Services = () => {
@@ -19,7 +19,7 @@ const Services = () => {
         <div className="container">
             <Fade top>
             <div className="content">
-                <h2>OUR SERVICES</h2>
+                <h1>OUR SERVICES</h1>
                 <p>At Natural Rest House, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
             </Fade>
@@ -78,8 +78,9 @@ const Services = () => {
       <div className='service-3-description'>
         <Fade left>
 
-                    <p><span> What We Do </span>
+                    <h2> What We Do </h2>
                     <br /> <br />
+                    <p>
                     At Get Reak Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    </p><br />
                     <p>
                     Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.

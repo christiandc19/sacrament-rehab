@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .services .content {
-    height: 20vh;
+    height: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-bottom: 3rem;
 }
+
 
 .serviceCards {
     margin: auto;
@@ -18,7 +19,6 @@
     top: 20px;
     border: none;
     height: 2px;
-    background: var(--primary-color);
     margin-bottom: 50px;
 }
 
@@ -33,9 +33,6 @@
     margin: 5rem;
 }
 
-.service-3 span {
-    font-size: 2rem;
-}
 
 .service-3-description {
     width: 50%;
@@ -49,7 +46,6 @@
 
 .service-3 .therapy {
     width: 60%; 
-
 }
 
 .service-3-image img {
@@ -59,18 +55,14 @@
 
 
 .services h2, .services-third h2 {
-    color: var(--primary-color);
-    font-size: 2.5rem;
     margin-bottom: 1rem;
     text-align: center;
     margin-top: 2rem;
 }
 
 .services-third p {
-    font-size: 25px;
     text-align: center;
     margin-bottom: 2rem;
-    font-family: 'Poppins';
 }
 
 

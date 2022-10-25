@@ -13,7 +13,7 @@ const Insurance = () => {
             <div className="container">
                 <div className="content">
                     <Fade left>
-                    <h2><span>Accepted</span> Insurance</h2>
+                    <h1>Accepted Insurance</h1>
                     </Fade>
                     <Fade right>
                     <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>

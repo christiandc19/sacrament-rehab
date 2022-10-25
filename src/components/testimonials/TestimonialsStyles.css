@@ -21,7 +21,7 @@
     position: absolute;
     left: 0;
     top: 30%;
-    width: 50%;
+    width: 100%;
 }
 
 .testimonials .content p {
@@ -29,8 +29,8 @@
     color:  white;
 }
 
-.testimonials .content h2 {
-    color:  white;
+.testimonials .content h1 {
+    text-align: left;
 }
 
 

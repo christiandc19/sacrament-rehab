@@ -23,8 +23,8 @@
     padding: 1rem;
 }
 
-.insurance h2 {
-    color: #f8f8f8;
+.insurance h1 {
+    text-align: left;
 }
 
 .insurance p {

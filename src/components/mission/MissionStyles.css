@@ -22,9 +22,10 @@
     padding: 1rem;
 }
 
-.mission h2 {
-    color: #f8f8f8;
+.mission h1 {
+    text-align: left;
 }
+
 
 .mission p {
     color: #f8f8f8;

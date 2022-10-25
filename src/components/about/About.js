@@ -20,7 +20,7 @@ const About = () => {
             <div className="container">
                 <div className="content">
                     <Fade right>
-                    <h2><span>About</span> Us</h2>
+                    <h1>About Us</h1>
                     </Fade>
                     <Fade left>
                     <p>
@@ -40,7 +40,7 @@ const About = () => {
             <div className="container">
                 <div className="content">
                     <Fade top>
-                    <h2><span>Meet</span> Our Team</h2>
+                    <h1>Meet Our Team</h1>
                     </Fade>
 
                     <Fade bottom>
