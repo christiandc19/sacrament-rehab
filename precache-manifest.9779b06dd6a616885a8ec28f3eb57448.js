@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fe4de1fe2a1f301913e6",
-    "url": "/sacramento-rehab/static/css/main.bd149546.chunk.css"
+    "revision": "17869e40b6b5f05a16ee",
+    "url": "/sacramento-rehab/static/css/main.1f70b881.chunk.css"
   },
   {
-    "revision": "fe4de1fe2a1f301913e6",
-    "url": "/sacramento-rehab/static/js/main.49bff8f8.chunk.js"
+    "revision": "17869e40b6b5f05a16ee",
+    "url": "/sacramento-rehab/static/js/main.361df5a2.chunk.js"
   },
   {
     "revision": "60dc47d8d7088a94abc6",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/sacramento-rehab/static/js/2.c531a07b.chunk.js"
   },
   {
-    "revision": "7b76a1c0e9e04925b1890d648d4be726",
-    "url": "/sacramento-rehab/static/media/logo-wh.7b76a1c0.png"
+    "revision": "41f08b38675976bba6215a80a59eddf4",
+    "url": "/sacramento-rehab/static/media/logo-wh.41f08b38.png"
   },
   {
     "revision": "6d425e638294d27db7bacfbc38a5426b",
@@ -56,20 +56,20 @@ self.__precacheManifest = [
     "url": "/sacramento-rehab/static/media/hero-vbg2.7d58648f.mp4"
   },
   {
-    "revision": "3440ad860a5eb96efa01d65c136aecc3",
-    "url": "/sacramento-rehab/static/media/mental-illness.3440ad86.png"
+    "revision": "a0e9b916232154e8887476e3346123e2",
+    "url": "/sacramento-rehab/static/media/mental-illness.a0e9b916.jpg"
   },
   {
-    "revision": "fbeb56fb1286ccea01afc386877ac4fa",
-    "url": "/sacramento-rehab/static/media/substance-use.fbeb56fb.png"
+    "revision": "83a9994e0a63f75da68f34f7a7e0c3a7",
+    "url": "/sacramento-rehab/static/media/substance-use.83a9994e.jpg"
   },
   {
-    "revision": "e43d2b5528c1d0503918199e532fceaa",
-    "url": "/sacramento-rehab/static/media/addiction-treatment.e43d2b55.png"
+    "revision": "778c4e6c7b0a4498251c80d3f7767408",
+    "url": "/sacramento-rehab/static/media/addiction-treatment.778c4e6c.jpg"
   },
   {
-    "revision": "2cf97747278a8f166be1d8a3c958eb0c",
-    "url": "/sacramento-rehab/static/media/employment-assistance.2cf97747.png"
+    "revision": "8e7ae31382d860cd3803ed48e1428843",
+    "url": "/sacramento-rehab/static/media/employment-assistance.8e7ae313.jpg"
   },
   {
     "revision": "5a151fdeb4aad39f5816bfd712ffb828",
@@ -172,7 +172,7 @@ self.__precacheManifest = [
     "url": "/sacramento-rehab/static/media/testimonials-bg.f9fef6f8.jpg"
   },
   {
-    "revision": "5680fb4a4ebb924dbf30ce72be8fd38d",
+    "revision": "1aa580399b8fe826a43d76cecd72cfa9",
     "url": "/sacramento-rehab/index.html"
   }
 ];
