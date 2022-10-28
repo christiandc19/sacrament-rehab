@@ -84,7 +84,7 @@ const InsuranceSection = () => {
 
                             </Link>
                         </LinkRoll>
-                        <div><button  className='download'><a href={VerificationForm} download className="btn btn-primary">Downnload Verification Form</a></button></div>
+                        <div><button  className='download'><a href={VerificationForm} download className="btn btn-primary">Download Verification Form</a></button></div>
                     </div>
                 </div>
             </div>

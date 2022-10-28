@@ -9,25 +9,14 @@
 .navbar .container {
     width: 100%;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
 }
 
-.navbar .logo {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    margin: 1rem;
-}
+/*  */
 
 .logo img{
-    width: 23%;
-}
-
-.navbar .logo .icon {
-    font-size: 3rem;
-    margin-right: 1rem;
-    color: var(--primary-color);
+    width: 75%;
+    margin-left: -3rem;
 }
 
 .hamburger {
