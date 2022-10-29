@@ -20,7 +20,7 @@ const Services = () => {
             <Fade top>
             <div className="content">
                 <h1>OUR SERVICES</h1>
-                <p>At Natural Rest House, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, drugs, prescriptions, or any other addiction disorders, our team is ready to help you. </p>
             </div>
             </Fade>
         </div>
@@ -33,10 +33,10 @@ const Services = () => {
     <ServicesCards
     Image = { Services1 }
     CardName="Mental Health Services​"
-    Description="Clients suffer from both mental health disorders and addiction. Therefore, we provide treatment for co-occurring disorders, addressing both conditions simultaneously."
+    Description="Mental and addiction disorders often go hand in hand, and so can treatment. In the event of co-occurring disorders, we address both conditions simultaneously, to make sure we treat the entire situation at once."
     />
 
-<ServicesCards
+{/* <ServicesCards
     Image = { Services2 }
     CardName="Substance Use"
     Description="We treat a multitude of substance use disorders. Whether the client is suffering from an alcohol addiction, prescription drug addiction, we can help."
@@ -48,13 +48,13 @@ const Services = () => {
     Image = { Services3 }
     CardName="Addiction Treatment"
     Description="We offer programs that's tailored to the needs of the client. With the help of our individualized treatment programs, clients can find the healing and support they need."
-    />
+    /> */}
 
 
 <ServicesCards
     Image = { Services4 }
     CardName="Employment Assistance"
-    Description="There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services. Jobs Assistance is available."
+    Description="Land a job that works for you. Our jobs program meets all your needs while you search for employment. Get resume help, resources for a new interview wardrobe, interview training, and transportation to and from the interview."
     />
 </Fade>
     </div>
