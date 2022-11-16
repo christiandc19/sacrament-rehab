@@ -1,15 +1,14 @@
 import React from 'react'
-import '../../components/services/ServicesCardsStyles.css'
+import '../../components/services/ServicesCards.css'
 
 function ServicesCards(props) {
   return (
-        <div className="servicesCards">
-            <div>
-            <img className='image' src= {props.Image} alt="logo" />
-            </div>
-            
-            <div>
+        <div className='card-container'>
             <p className="card-name">{props.CardName}</p>
+            <div className="servicesCards">
+            <img className='image' src= {props.Image} alt="logo" />
+            </div>            
+            <div>
             <p className='card-description'>{props.Description}</p>
             </div>
             

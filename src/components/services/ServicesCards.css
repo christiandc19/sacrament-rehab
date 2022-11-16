@@ -1,0 +1,57 @@
+
+.card-name {
+    color: black;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+.card-description {
+    text-align: center;
+    width: 220px;
+}
+
+.card-container p {
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.servicesCards {
+    position: relative;
+    margin-left: 25%;
+    padding-top: 1rem;
+    height: 140px;
+    width: 140px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10rem;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);   
+    background: white;
+}
+
+/* .servicesCards:hover {
+    background: white;
+} */
+
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -5rem;
+}
+
+.servicesCards img {
+    position: absolute;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.card-button {
+    border-radius: 10px;
+    margin-left: 27%;
+}
+
+
+/* END OF SERVICES CARDS */

@@ -1,0 +1,61 @@
+.mission-section {
+    height: auto;
+}
+
+
+.mission-section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.mission-section .content p {
+    margin: 1rem 0;
+}
+
+.mission-section .content h1 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.flex-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.thumbnail img {
+    margin: 5px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+}
+
+.thumbnail p {
+    width: 220px;
+}
+
+@media screen and (max-width: 940px) {
+
+    .mission-section p {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

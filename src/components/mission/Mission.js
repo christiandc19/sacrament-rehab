@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
-import './MissionStyles.css'
+import './Mission.css'
 
 const Mission = () => {
     return (
@@ -9,7 +9,7 @@ const Mission = () => {
             <div className="container">
                 <div className="content">
                     <Fade right>
-                    <h1>Our Mission</h1>
+                    <h1>OUR MISSION</h1>
                     </Fade>
                     <Fade left>
                     <p>We strive to make overcoming addiction achievable by focusing on your comfort and safety above all. We use evidence-based medical practices and a holistic, comprehensive approach to healing through guidance, compassion, and community.</p>

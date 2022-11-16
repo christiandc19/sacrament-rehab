@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
-import logo from '../../assets/logo-wh.png'
-import './NavbarStyles.css'
+import logo from '../../assets/sacramento-logo.png'
+import './Navbar.css'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -13,9 +13,9 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 
-                <div className="logo">
+                <div className="sacramento-logo">
                     <Link to='/'>
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <img src={logo} className="logo" alt="logo" />
                     </Link>
                 </div>
 

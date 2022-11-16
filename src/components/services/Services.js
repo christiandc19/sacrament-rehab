@@ -1,26 +1,27 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
-import './ServicesStyles.css'
-import './ServicesCardsStyles.css'
+import './Services.css'
+import './ServicesCards.css'
 import Fade from 'react-reveal/Fade';
 import ServicesCards from './ServicesCards';
-import Services1 from '../../assets/mental-illness.jpg'
-import Services2 from '../../assets/substance-use.jpg'
-import Services3 from '../../assets/addiction-treatment.jpg'
-import Services4 from '../../assets/employment-assistance.jpg'
-import Service3 from '../../assets/home-image1.jpg'
+import Services1 from '../../assets/mental-illness.png'
+import Services2 from '../../assets/substance-use.png'
+import Services3 from '../../assets/addiction-treatment.png'
+import Services4 from '../../assets/employment-assistance.png'
+import WhatWeDo from '../../assets/WhatWeDo.jpg'
 
 
 const Services = () => {
   return (
     <>
     <div className='services'>
+
         <div className="container">
             <Fade top>
             <div className="content">
-                <h1>OUR SERVICES</h1>
-                <p>Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, drugs, prescriptions, or any other addiction disorders, our team is ready to help you. </p>
+                <h2>OUR SERVICES</h2>
+                <p>At Sacramento Rehab Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
             </Fade>
         </div>
@@ -32,13 +33,13 @@ const Services = () => {
 <Fade bottom>
     <ServicesCards
     Image = { Services1 }
-    CardName="Mental Health Services​"
-    Description="Mental and addiction disorders often go hand in hand, and so can treatment. In the event of co-occurring disorders, we address both conditions simultaneously, to make sure we treat the entire situation at once."
+    CardName="MENTAL HEALTH SERVICES​"
+    Description="Clients suffer from both mental health disorders and addiction. Therefore, we provide treatment for co-occurring disorders, addressing both conditions simultaneously."
     />
 
-{/* <ServicesCards
+<ServicesCards
     Image = { Services2 }
-    CardName="Substance Use"
+    CardName="SUBSTANCE USE"
     Description="We treat a multitude of substance use disorders. Whether the client is suffering from an alcohol addiction, prescription drug addiction, we can help."
     />
 </Fade>
@@ -46,15 +47,15 @@ const Services = () => {
 <Fade bottom>
 <ServicesCards
     Image = { Services3 }
-    CardName="Addiction Treatment"
+    CardName="ADDICTION TREATMENT"
     Description="We offer programs that's tailored to the needs of the client. With the help of our individualized treatment programs, clients can find the healing and support they need."
-    /> */}
+    />
 
 
 <ServicesCards
     Image = { Services4 }
-    CardName="Employment Assistance"
-    Description="Land a job that works for you. Our jobs program meets all your needs while you search for employment. Get resume help, resources for a new interview wardrobe, interview training, and transportation to and from the interview."
+    CardName="EMPLOYMENT ASSISTANCE"
+    Description="There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services. Jobs Assistance is available."
     />
 </Fade>
     </div>
@@ -71,31 +72,29 @@ const Services = () => {
 
 
 
-{/* ---------------------------------------------- THIRD SECTION - SERVICES -------------------------------------------------*/}
-<hr className='hr-container'/>
+{/* ---------------------------------------------- WHAT WE DO -------------------------------------------------*/}
+<div className='whatWeDo-container'>
+<h1> WHAT WE DO </h1>
 
-<div className='service-3'>
-      <div className='service-3-description'>
-        <Fade left>
+        <div className='whatWeDo'>
+            <div className='whatWeDo-content'>
+                <div className='whatWeDo-description'>
+                 <Fade left>
+                 <p>
+                 At Sacramento Rehab Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    
+                 </p><br />
+                 
+                 <p>Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.</p><br />
+                    </Fade>
+            </div>
 
-                    <h2> What We Do </h2>
-                    <br /> <br />
-                    <p>
-                    At Get Reak Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    </p><br />
-                    <p>
-                    Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
-                    </p><br />
-        </Fade>
-
-
+            <div className='whatWeDo-image'>
+                <img src={ WhatWeDo } alt="" />
+            </div>
         </div>
-                <div className='service-3-image'>
-                    <img src={ Service3 } alt="" />
-                </div>
-        </div>
-
-{/* ---------------------------------------------- END of THIRD SECTION - SERVICES -------------------------------------------------*/}
-<hr className='hr-container'/>
+</div>
+</div>
+{/* ---------------------------------------------- END of WHAT WE DO -------------------------------------------------*/}
 
 
   </>

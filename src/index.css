@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 :root {
-  --primary-color: #1C6DD0;
+  --primary-color: rgb(55, 176, 224);
   --primary-dark: #0d2154;
-  --secondary-color: #5BB318;
+  --secondary-color: #76a10f;
 }
-
 span {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 * {
@@ -18,13 +18,16 @@ span {
 
 body {
   margin: 0;
+  font-family: 'Roboto', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Roboto', sans-serif;
 }
 
 code {
-  font-family: 'Roboto', sans-serif;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 ul {
@@ -39,20 +42,14 @@ a {
 p {
   font-size: 1.2rem;
   line-height: 1.4;
-  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  font-size: 35px;
-  font-family: 'Roboto', sans-serif;
-  color: var(--primary-color);
-
+  font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 25px;
-  font-family: 'Roboto', sans-serif;
-  color: var(--primary-color);
+  font-size: 3rem;
 }
 
 .container {
@@ -80,9 +77,35 @@ button:hover {
   border: 1px solid #47dcff;
 }
 
-span {
-  color: var(--primary-color);
+/* .App {
+  text-align: center;
 }
+
+.App-logo {
+  position: absolute;
+  width: 8rem;
+  pointer-events: none;
+  margin-left: 33.9rem;
+  margin-top: -1.5rem;
+} */
+
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
 
 @media screen and (max-width: 940px) {
   h1 {
@@ -92,6 +115,8 @@ span {
   h2 {
     font-size: 2.5rem;
   }
+
+
 }
 
 

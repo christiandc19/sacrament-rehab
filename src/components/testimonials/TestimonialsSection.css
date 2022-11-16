@@ -1,0 +1,60 @@
+.testimonials-section {
+    height: auto;
+}
+
+.testimonials-section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.testimonials-section .content p {
+    margin: 1rem 0;
+    
+}
+
+.flex-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    gap: 30px;
+}
+
+.thumbnail-container img {
+    margin: 5px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5rem;
+}
+
+.thumbnail-container p {
+    width: 350px;
+    gap: 1rem;
+    font-style: italic;
+}
+
+
+.thumbnail-container {
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 940px) {
+
+}
+
+
+
+
+
+
+
+
+
+

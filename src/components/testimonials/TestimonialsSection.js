@@ -1,5 +1,5 @@
 import React from 'react'
-import './TestimonialsSectionStyles.css'
+import './TestimonialsSection.css'
 import Fade from 'react-reveal/Fade';
 
 import Ross from '../../assets/ross.jpg'

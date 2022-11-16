@@ -1,17 +1,9 @@
 .InsuranceSection {
     width: 100%;
-    height: 55vh;
+    height: 50vh;
     position: relative;
     background: rgba(255, 255, 255, 0);
 }
-
-.InsuranceSection::before {
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-    }
 
 .InsuranceSection .content {
     flex-direction: column;
@@ -53,29 +45,6 @@
 margin: auto;
 margin-top: 1rem;
 }
-
-.home-insurance-cta {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
- .download {
-    font-family: 'Roboto', sans-serif;
-    padding: .7rem 2rem;
-    margin: 1rem 0;
-    font-size: 1rem;
-    font-weight: 500;
-    display: flex;
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.185);
-    border: 1px solid rgba(0, 0, 0, 0.185);
-  }
-
-  .download a {
-    color: black;
-  }
 
 @media screen and (max-width: 940px) {
     .InsuranceSection .content {

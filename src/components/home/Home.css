@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+
+
+.video-bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.hero .container {
+    top: 30%;
+    align-items: center;
+    bottom: 10%;
+    z-index: 3333;
+}
+
+
+.hero-header h1{
+    color: var(--secondary-color);
+    transform: scale(1, 3);
+
+}
+
+
+.subtitle {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero p {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.hero .hero-btn button {
+    margin: auto;
+    cursor: pointer;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+    .hero-header h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+}
