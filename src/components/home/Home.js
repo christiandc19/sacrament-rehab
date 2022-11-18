@@ -5,7 +5,7 @@ import './Home.css'
 
 import BgVideo from '../../assets/hero-vbg.mp4'
 
-import HeroLogo from '../../assets/sacramento-logo.png'
+// import HeroLogo from '../../assets/sacramento-logo.png'
 
 import Services from '../services/Services';
 import ContactForm from '../contact/ContactForm';
@@ -15,8 +15,9 @@ const Home = () => {
     return (
         <>
         <div className='hero'>
-             <video src={BgVideo} autoPlay muted loop className='video-bg' />
-
+            <div className='video-container'>
+        <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
+            </div>
             <div className="container">
                 <div className="content">
                     
@@ -36,6 +37,9 @@ const Home = () => {
                     <Fade bottom>
                         <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY</h2>
                     </Fade>
+                    <p>Find your happiness
+                        and learn to put it first.
+                    </p>
                         <br />
                         <div className='hero-btn'>
                         <Link to="/treatment">
