@@ -81,6 +81,9 @@ textarea {
         display: none;
     }
 
+    .mainContainer-contactForm p {
+        font-size: 14px;
+    }
 
 }
 

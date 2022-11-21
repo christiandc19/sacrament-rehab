@@ -178,14 +178,12 @@
 
 @media screen and (max-width:940px) {
 
-    .treatment {
-        height: 80vh;
+    .treatment h1 {
+        font-size: 1.5rem;
     }
 
     .treatment p {
         font-size: 14px;
-        color: #f8f8f8;
-        margin: 1rem 0;
         text-align: justify;
     }
 
