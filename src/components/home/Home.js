@@ -15,37 +15,22 @@ const Home = () => {
     return (
         <>
         <div className='hero'>
-            <div className='video-container'>
         <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
-            </div>
-            <div className="container">
+            <div className="home-container">
                 <div className="content">
-                    
-
-                    {/* <div className='hero-logo'>
-                    <Fade left>
-                        <img src={ HeroLogo } alt="" />
-                    </Fade>
-                    </div>
- */}
-
-
-                <div className='hero-header'>
                     <h1>SACRAMENTO REHAB</h1>
-                </div>
-                
-                    <Fade bottom>
+                        <Fade right>
                         <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY</h2>
-                    </Fade>
-                    <p>Find your happiness
-                        and learn to put it first.
-                    </p>
+                        </Fade>
+                        <Fade left>
+                        <p>Find your happiness and learn to put it first.</p>
+                        </Fade>
                         <br />
-                        <div className='hero-btn'>
+                        <Fade bottom>
                         <Link to="/treatment">
                         <button>Learn More</button>
-                    </Link>
-                    </div>
+                        </Link>
+                        </Fade>
                 </div>
             </div>
         </div>

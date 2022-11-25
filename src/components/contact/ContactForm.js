@@ -34,7 +34,7 @@ const ContactForm = () => {
                     <div className="location">
                         <h1 className="location-header">Get In Touch</h1><br />
                         <p><AiOutlinePhone /> +1 123 456 7890  </p><br />
-                        <p><AiOutlineMail /> info@sacramentorehab.com  </p><br />
+                        <p><AiOutlineMail /> info@sacramentorehab.biz  </p><br />
                         <p><BsFillPinMapFill /> 1800 Vine Street Los Angeles Ca 90028  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>

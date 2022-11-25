@@ -39,6 +39,11 @@ a {
   color: #fff;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 p {
   font-size: 1.2rem;
   line-height: 1.4;
