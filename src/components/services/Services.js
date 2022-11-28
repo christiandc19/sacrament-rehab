@@ -11,6 +11,9 @@ import Services3 from '../../assets/addiction-treatment.png'
 import Services4 from '../../assets/employment-assistance.png'
 import WhatWeDo from '../../assets/WhatWeDo.jpg'
 
+import Overlay from '../../assets/overlay.mp4'
+
+
 
 const Services = () => {
   return (
@@ -20,7 +23,7 @@ const Services = () => {
         <div className="container">
             <Fade top>
             <div className="content">
-                <h2>OUR SERVICES</h2>
+                <h1>OUR SERVICES</h1>
                 <p>At Sacramento Rehab Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
             </Fade>
@@ -73,27 +76,20 @@ const Services = () => {
 
 
 {/* ---------------------------------------------- WHAT WE DO -------------------------------------------------*/}
-<div className='whatWeDo-container'>
-<h1> WHAT WE DO </h1>
+            <div className='what-we-do'>
+                         <video src={Overlay} autoPlay muted loop playsInline className='what-we-do-video-bg' />
 
-        <div className='whatWeDo'>
-            <div className='whatWeDo-content'>
-                <div className='whatWeDo-description'>
-                 <Fade left>
-                 <p>
-                 At Sacramento Rehab Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    
-                 </p><br />
-                 
-                 <p>Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.</p><br />
-                    </Fade>
+                <div className="container">
+                    <div className="content">
+                        
+                <h1>WHAT WE DO</h1>
+                            <br /> <br />
+                            <p>
+                            At Get Real Recovery Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.
+                        </p>
+                </div>
             </div>
-
-            <div className='whatWeDo-image'>
-                <img src={ WhatWeDo } alt="" />
             </div>
-        </div>
-</div>
-</div>
 {/* ---------------------------------------------- END of WHAT WE DO -------------------------------------------------*/}
 
 
