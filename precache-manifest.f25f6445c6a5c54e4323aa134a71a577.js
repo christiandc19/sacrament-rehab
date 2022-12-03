@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5d127d84140ef399bfeb",
-    "url": "/sacramento-rehab/static/css/main.49171ae8.chunk.css"
+    "revision": "2e3df5220afcdb187465",
+    "url": "/sacramento-rehab/static/css/main.12a59c0f.chunk.css"
   },
   {
-    "revision": "5d127d84140ef399bfeb",
-    "url": "/sacramento-rehab/static/js/main.5d127d84.chunk.js"
+    "revision": "2e3df5220afcdb187465",
+    "url": "/sacramento-rehab/static/js/main.2e3df522.chunk.js"
   },
   {
     "revision": "ec3913ed27a7c8823e0b",
@@ -116,10 +116,6 @@ self.__precacheManifest = [
     "url": "/sacramento-rehab/static/media/hero-bg.4e6d75fc.jpg"
   },
   {
-    "revision": "88bf332580497460588477b1dd86110a",
-    "url": "/sacramento-rehab/static/media/WhatWeDo.88bf3325.jpg"
-  },
-  {
     "revision": "824ca03ed1c8be62014f43ca59cc2f2d",
     "url": "/sacramento-rehab/static/media/footer-bg.824ca03e.jpg"
   },
@@ -148,7 +144,7 @@ self.__precacheManifest = [
     "url": "/sacramento-rehab/static/media/testimonials-hero-bg.b14ee3e9.jpg"
   },
   {
-    "revision": "e4f35ebb4710e0b635f71c12100973d0",
+    "revision": "4d2fec4e6e5952182a5fd6126b2fb061",
     "url": "/sacramento-rehab/index.html"
   }
 ];
