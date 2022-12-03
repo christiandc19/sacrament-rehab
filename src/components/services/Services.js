@@ -9,7 +9,6 @@ import Services1 from '../../assets/mental-illness.png'
 import Services2 from '../../assets/substance-use.png'
 import Services3 from '../../assets/addiction-treatment.png'
 import Services4 from '../../assets/employment-assistance.png'
-import WhatWeDo from '../../assets/WhatWeDo.jpg'
 
 import Overlay from '../../assets/overlay.mp4'
 
