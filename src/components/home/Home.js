@@ -6,28 +6,30 @@ import './Home.css'
 import Services from '../services/Services';
 import ContactForm from '../contact/ContactForm';
 
+import BgVideo from '../../assets/hero-vbg.mp4'
+
 
 const Home = () => {
     return (
         <>
         <div className='hero'>
-            <div className="home-container">
+             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
+
+            <div className="container">
                 <div className="content">
-                    <Fade top>
+                    
                     <h1>SACRAMENTO REHAB</h1>
+                
+                    <Fade bottom>
+                        <h2 className='subtitle'>Mental Health  Treatment Facility </h2>
                     </Fade>
-                        <Fade right>
-                        <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY</h2>
-                        </Fade>
-                        <Fade left>
                         <p>Find your happiness and learn to put it first.</p>
-                        </Fade>
                         <br />
-                        <Fade bottom>
+                        <div className='hero-btn'>
                         <Link to="/treatment">
                         <button>Learn More</button>
-                        </Link>
-                        </Fade>
+                    </Link>
+                    </div>
                 </div>
             </div>
         </div>

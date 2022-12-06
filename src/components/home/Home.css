@@ -1,93 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-
 .hero {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: relative;
-    background: rgba(0, 0, 0, .3);
+    top: 0;
+    object-fit: cover;
+    z-index: -2;
 }
 
-.hero::before {
-    content: '';
-    position: absolute;
-    background: url(../../assets/hero-bg.jpg) no-repeat center center/cover;
+
+.video-bg {
     width: 100%;
-    height: 80vh;
-    z-index: -1;
-}
-
-.hero .content {
-    position: absolute;
-    top: 30%;
-    width: 40%;
-    bottom: 10%;
-    left: 55%;
-}
-
-/* .video-bg {
-    width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: absolute;
     top: 0;
     object-fit: cover;
-} */
-
-/* 
-.hero .content {
-    top: 30%;
-    width: 40%;
-    bottom: 10%;
-    left: 55%;
-
-} */
-
-.hero h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Roboto';
-    color: var(--primary-color);
-    font-size: 6rem;
 }
 
-.hero p {
-    color: white;
-    font-style: italic;
-    text-align: center;
+.hero .container {
+    top: 40%;
+    align-items: center;
+    bottom: 10%;
+    z-index: 3333;
+}
+
+.hero-logo {
+    margin: auto;
 }
 
 .subtitle {
-    color: var(--secondary-color);
-    text-align: center;
-    padding: 1rem 0;
-    font-size: 26px;
+    letter-spacing: .5rem;
 }
 
-.hero button {
-    margin: auto;
+.hero-logo {
+    text-align: center;
 }
+
+.hero h1 {
+    color: #fff;
+    font-size: 7rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.hero p {
+    font-size: 24px;
+    text-align: center;
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+.hero .hero-btn button {
+    margin: auto;
+    cursor: pointer;
+}
+
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
-    .hero h1{
-        font-size: 3rem;
-        color: white;
-    }
-
-    .subtitle {
-        font-size: 1.5rem;
+    .hero h2 {
+        font-size: 24px;
     }
 
     .hero p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
-    .hero .content {
-        width: 100%;
-        left: 0%;
-
+    .hero-logo img {
+        width: 50%;
     }
+
+    .hero .container {
+        top: 30%;
+    }
+    
 
 }

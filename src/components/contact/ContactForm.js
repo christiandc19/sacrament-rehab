@@ -35,7 +35,7 @@ const ContactForm = () => {
                         <h1 className="location-header">Get In Touch</h1><br />
                         <p><AiOutlinePhone /> +1 323 329-5006  </p><br />
                         <p><AiOutlineMail /> info@sacramentorehab.biz  </p><br />
-                        <p><BsFillPinMapFill /> 1234 Stree City State 00000  </p><br />
+                        <p><BsFillPinMapFill /> 7248 S Land Park Dr, STE 100, Sacramento CA 95831 </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
