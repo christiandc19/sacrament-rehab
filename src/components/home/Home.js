@@ -15,7 +15,7 @@ const Home = () => {
         <div className='hero'>
              <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
 
-            <div className="container">
+            <div className="hero-container">
                 <div className="content">
                     
                     <h1>SACRAMENTO REHAB</h1>

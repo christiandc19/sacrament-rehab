@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { BsFillPinMapFill } from 'react-icons/bs';
 import { AiOutlinePhone } from 'react-icons/ai';
-import { AiOutlineMail } from 'react-icons/ai';
+// import { AiOutlineMail } from 'react-icons/ai';
 
 
 import './ContactForm.css';
@@ -34,7 +34,7 @@ const ContactForm = () => {
                     <div className="location">
                         <h1 className="location-header">Get In Touch</h1><br />
                         <p><AiOutlinePhone /><a href="tel:3233295006">+1 323 329-5006</a></p><br />
-                        <p><AiOutlineMail /> info@sacramentorehab.biz  </p><br />
+                        {/* <p><AiOutlineMail /> info@sacramentorehab.biz  </p><br /> */}
                         <p><BsFillPinMapFill /> 7248 S Land Park Dr, STE 100, Sacramento CA 95831 </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>

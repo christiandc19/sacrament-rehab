@@ -30,7 +30,7 @@
 
 .what-we-do {
     width: 100%;
-    height: 50vh;
+    height: 38vh;
     position: relative;
     top: 0;
     object-fit: cover;
@@ -39,7 +39,7 @@
 
 .what-we-do-video-bg {
     width: 100%;
-    height: 50vh;
+    height: 38vh;
     position: absolute;
     top: 0;
     object-fit: cover;
@@ -47,8 +47,7 @@
 
 
 .what-we-do .container {
-    top: 10%;
-    padding: 2rem;
+    padding: 10px;
     width: auto;
 }
 
@@ -58,6 +57,7 @@
 }
 
 .what-we-do h1 {
+    font-size: 2.5rem;
     color: var(--primary-color);
 }
 
@@ -68,6 +68,12 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
+    
+    .services h1 {
+        font-size: 2rem;
+    }
+    
+    
     .services h2 {
         font-size: 1.5rem;
     }
@@ -76,6 +82,14 @@
         font-size: 14px;
         text-align: justify;
         padding: 25px;
+    }
+
+    .what-we-do p {
+        font-size: 14px;
+    }
+
+    .what-we-do h1 {
+        font-size: 2rem;
     }
 }
 
