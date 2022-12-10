@@ -13,9 +13,9 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 
-                <div className="sacramento-logo">
+                <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} className="logo" alt="logo" />
+                    <img src={logo} width="100px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -25,9 +25,7 @@ const Navbar = () => {
                     <li><Link to='/mission'>Our Mission</Link> </li>
                     <li><Link to='/about-us'>About Us</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
-                    <li><Link to='/testimonials'>Testimonials</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
-                    {/* <button><a>+1 310 999 9999</a></button> */}
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}

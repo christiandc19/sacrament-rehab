@@ -9,22 +9,23 @@
 .navbar .container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
 
-.navbar .sacramento-logo {
+/* .navbar .logo {
     display: flex;
     align-items: center;
     color: #fff;
     margin: 1rem;
-}
+} */
 
-.sacramento-logo img{
-    width: 50%;
-}
+/* .logo img{
+    width: 30%;
+} */
 
-.navbar .sacramento-logo .icon {
+.navbar .logo .icon {
     font-size: 3rem;
     margin-right: 1rem;
     color: var(--primary-color);
@@ -44,7 +45,7 @@
 .navbar li {
     width: max-content;
     padding: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
 }
 
@@ -65,9 +66,10 @@
         z-index: 15;
     }
 
-    .sacramento-logo img{
-        width: 40%;
-    }
+
+    /* .logo img{
+        width: 45%;
+    } */
 
     .navbar .nav-menu {
         position: absolute;
@@ -94,14 +96,6 @@
     .navbar button {
         font-size: 1.8rem;
     }
-
-
-    .App-logo {
-        margin-left: 6.8rem;
-        margin-top: 16rem;
-        width: 100px;
-      }
-
 
 
 }
