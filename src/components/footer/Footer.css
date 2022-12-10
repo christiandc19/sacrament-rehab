@@ -61,11 +61,13 @@
 .footer h3 {
     margin: 1rem 0 2rem 0;
     text-transform: uppercase;
+    color: #fff;
 }
 
 
 .footer p {
     margin: .5rem 0;
+    color: var(--primary-color);
 }
 
 .footer form {
