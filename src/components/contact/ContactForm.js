@@ -28,7 +28,7 @@ const ContactForm = () => {
 
     return (
         <>
-    <div className="container mainContainer-contactForm">
+    <div className="mainContainer-contactForm">
             <div className='contactForm'>
                 <div className="map">
                     <div className="location">

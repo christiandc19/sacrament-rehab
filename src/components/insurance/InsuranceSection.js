@@ -6,6 +6,13 @@ import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
+import Umr from '../../assets/umr.png'
+import Optima from '../../assets/optima.png'
+import Optum from '../../assets/optum.png'
+import Horizon from '../../assets/horizon.png'
+
+
+
 
 import { Link as LinkRoll } from 'react-scroll'
 
@@ -18,13 +25,13 @@ const InsuranceSection = () => {
                 <div className="content">
 
                 <Fade top>
-                <div className='flex-left'>
-                        <h2><span>WE WORK WITH MAJOR INSURANCE</span></h2>                   
+                <div className='cards-header'>
+                        <h1><span>WE WORK WITH MAJOR INSURANCE</span></h1>                   
                         <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 </div>
                 </Fade>
 
-                <div className='flex-right'>
+                <div className='cards'>
 
                     <Fade top>
                     <div className='insurance-thumbnail'>
@@ -51,11 +58,33 @@ const InsuranceSection = () => {
                     </div>
                     </Fade>
 
+                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Umr } alt="UMR Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Optima } alt="Optima Logo" loading="lazy" />   
+                    </div>
+
+                    </Fade>                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Optum } alt="Optum Logo" loading="lazy" />   
+                    </div>
+                    </Fade>    
+                                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Horizon } alt="Horizon Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
                 </div>
 
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                 <Link to='/insurance'>
-                    <button>View More</button>
+                    <button>Learn More</button>
                 </Link>
                 </LinkRoll>
 

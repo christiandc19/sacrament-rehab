@@ -17,14 +17,17 @@
     margin-bottom: 4rem;
 }
 
-
 .services h1 {
-    color: var(--primary-color);
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     text-align: center;
+    color: var(--secondary-color);
+
 }
 
+.services p {
+    color: var(--primary-color);
+}
 
 /* WHAT WE DO */
 
@@ -53,12 +56,14 @@
 
 .what-we-do p {
     color: #fff;
-    text-align: justify;
+    text-align: center;
+    color: var(--secondary-color);
+
 }
 
 .what-we-do h1 {
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: #fff;
 }
 
 

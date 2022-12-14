@@ -7,6 +7,7 @@ import Services from '../services/Services';
 import ContactForm from '../contact/ContactForm';
 
 import BgVideo from '../../assets/hero-vbg.mp4'
+import InsuranceSection from '../insurance/InsuranceSection';
 
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
         </div>
 
         <Services />
+        <InsuranceSection />
         <ContactForm />
 
 

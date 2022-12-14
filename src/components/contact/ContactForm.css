@@ -1,5 +1,16 @@
-.mainContainer-contactForm  {
-    height: auto;
+.mainContainer-contactForm {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: relative;
+    padding: 2rem;
+}
+
+.mainContainer-contactForm:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 .contactForm {
@@ -9,8 +20,8 @@
     margin: 1rem;
 }
 
-.contactForm a {
-    color: black;
+.contactForm a, p {
+    color: rgb(255, 255, 255);
 }
 
 .contactForm h1 {
@@ -20,7 +31,7 @@
 }
 
 .map .location-header {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .map {

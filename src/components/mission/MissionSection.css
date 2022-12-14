@@ -16,6 +16,7 @@
 
 .mission-section .content p {
     margin: 1rem 0;
+    color: var(--primary-color);
 }
 
 .mission-section .content h1 {
