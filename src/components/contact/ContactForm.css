@@ -1,6 +1,6 @@
 .mainContainer-contactForm {
     width: 100%;
-    background: rgb(0, 0, 0);
+    /* background: rgb(0, 0, 0); */
     position: relative;
     padding: 2rem;
 }
@@ -21,7 +21,7 @@
 }
 
 .contactForm a, p {
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .contactForm h1 {
