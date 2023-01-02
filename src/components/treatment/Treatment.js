@@ -118,7 +118,7 @@ const Treatment = () => {
 
             <div className='container revisions-header'>
                 <Fade left>
-                    <p>For more information about our addiction treatment programs, please contact Sacramento Rehab Center today at <b><span> 844 311-1705.</span></b></p>
+                    <p>For more information about our addiction treatment programs, please contact Sacramento Rehab Center today at <b><span> 323 329-5006.</span></b></p>
                 </Fade>
             </div>
 
