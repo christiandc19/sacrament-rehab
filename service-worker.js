@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sacramento-rehab/precache-manifest.a99b7cb81cd5046418c4b6fc57cd6988.js"
+  "/sacramento-rehab/precache-manifest.6e65dd5cf91ec4eb3e94e428f6d27530.js"
 );
 
 workbox.clientsClaim();
