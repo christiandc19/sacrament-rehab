@@ -16,11 +16,10 @@ const Jobs = () => {
                     <br /> <br />
                     Our jobs program starts with getting an ID, to helping with a resume, to coaching for the interview, transportation to the actual work site, and coaching on how to keep the job and appropriate behavior. Work is NOT an option.  </p>
                     </Fade>
-                <div>
-                <Link to="/treatment">
-                    <button>Learn More</button>
-                </Link>
-                </div>
+                    <br /> <br />
+                    <div className='job-link'>
+                        <p>For more information for our Jobs Program, visit <a href='https://www.transitionsfortomorrow.org/'>here.</a></p>
+                    </div>
                 </div>
             </div>
         </div>
