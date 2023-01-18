@@ -1,15 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
-import './Iop.css'
 
 const Iop = () => {
     return (
-        <div className='iop'>
+        <div className='iop submenu'>
             <div className="container">
                 <div className="content">
                     <Fade top>
-                    <h1>Intensive Outpatient Prorgam (IOP)</h1>
+                    <h1>INTENSIVE OUTPATIENT PROGRAM (IOP)</h1>
                     </Fade>
                     <Fade bottom>
                     <p>Our IOP enables patients to continue their day-to-day regimen while simultaneously  undergoing our best possible care. Measured on a case-by-case basis, patients may live in our treatment center, in a sober living community, or at their own home. 

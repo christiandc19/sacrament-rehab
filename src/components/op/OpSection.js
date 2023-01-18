@@ -1,5 +1,4 @@
 import React from 'react'
-import './OpSection.css'
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'

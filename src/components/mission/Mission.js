@@ -1,17 +1,16 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
-import './Mission.css'
 
 const Mission = () => {
     return (
-        <div className='mission'>
+        <div className='mission main-menu sub-menu'>
             <div className="container">
-                <div className="content">
-                    <Fade right>
-                    <h1>OUR MISSION</h1>
+                <div className="main-menu-content sub-menu-content">
+                    <Fade top>
+                    <h1>MISSION</h1>
                     </Fade>
-                    <Fade left>
+                    <Fade bottom>
                     <p>We strive to make overcoming addiction achievable by focusing on your comfort and safety above all. We use evidence-based medical practices and a holistic, comprehensive approach to healing through guidance, compassion, and community.</p>
                     </Fade>
                 <div>

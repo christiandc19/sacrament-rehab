@@ -1,11 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
-import './Op.css'
 
 const Op = () => {
     return (
-        <div className='op'>
+        <div className='op submenu'>
             <div className="container">
                 <div className="content">
                     <Fade top>

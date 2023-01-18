@@ -1,5 +1,4 @@
 import React from 'react'
-import './PhpSection.css'
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
@@ -32,7 +31,6 @@ const PhpSection = () => {
         </ul>
         <br />
         <p>Our evaluation doesn’t just determine what level of care you need. It also allows us to choose what therapeutic options could be part of your treatment program.</p>
-    
 
     </div>
     </Fade>
@@ -47,7 +45,6 @@ const PhpSection = () => {
 {/* SECTION 2 */}
 
 <div className='wrap'>
-
 <Fade left>
     <div className="box">
         <img src={PhpSection2} width="600px" height="380px" alt="Palm Springs Rehab Logo" loading="lazy" />

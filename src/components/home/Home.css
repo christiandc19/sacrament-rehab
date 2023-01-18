@@ -1,91 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
-.video-bg {
+.what-we-do {
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     position: relative;
     top: 0;
-    background: rgba(0, 0, 0, .1);
     object-fit: cover;
+    z-index: -2;
 }
 
-
-.video-bg::before {
+.what-we-do-video-bg {
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     position: absolute;
     top: 0;
     object-fit: cover;
-    z-index: -1;
-}
-
-.hero .hero-container {
-    top: 25%;
-    position: absolute;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-}
-
-.hero-logo {
-    margin: auto;
-}
-
-.subtitle {
-    letter-spacing: .5rem;
-}
-
-.hero-logo {
-    text-align: center;
-}
-
-.hero h1 {
-    color: #fff;
-    font-size: 7rem;
-}
-
-.hero h2 {
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-}
-
-.hero p {
-    font-size: 24px;
-    text-align: center;
-    color: var(--secondary-color);
-    font-style: italic;
-}
-
-.hero .hero-btn button {
-    margin: auto;
-    cursor: pointer;
 }
 
 
-/* MEDIA QUERIES */
+.what-we-do .container {
+    top: 10%;
+    padding: 2rem;
+    width: auto;
+}
+
+.what-we-do p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.what-we-do h1 {
+    color: var(--primary-color);
+}
+
+
 
 @media screen and (max-width:940px) {
 
-    .hero h1 {
-    font-size: 3rem;
+    .home-container .description p {
+        font-size: 14px;
     }
 
-    .hero h2 {
-        font-size: 24px;
-    }
 
-    .hero p {
-        font-size: 16px;
-    }
+    .home-container .description h1 {
+        font-size: 1.5rem;
+    } 
 
-    .hero-logo img {
-        width: 50%;
-    }
-
-    .hero .container {
-        top: 30%;
+    .what-we-do p {
+        font-size: 14px;
     }
     
+    .what-we-do h1 {
+        font-size: 1.5rem;
+    }
 
 }
+
+
+
+
