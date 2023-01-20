@@ -16,6 +16,7 @@ const Cards = () => {
 
             <div className="cards-header container">
                 <h1>WE OFFER VARIOUS SERVICES </h1>
+                <br/>
                 <p>At Sacramento Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 
