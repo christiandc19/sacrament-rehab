@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
 import Aetna from '../../assets/aetna.png'
@@ -13,9 +12,7 @@ import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
-
-import { Link as LinkRoll } from 'react-scroll'
-
+import Team from '../../assets/team.jpg'
 
 
 const InsuranceSection = () => {
@@ -30,7 +27,7 @@ const InsuranceSection = () => {
                 <div className="content">
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Aetna} width="640" height="100" alt="Aetna Insurance Logo" loading="lazy"/>
+                                <img src={Aetna} height="100" alt="Aetna Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
@@ -88,13 +85,14 @@ const InsuranceSection = () => {
                 </div>
             </div>
 
-            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                <Link to="/insurance">
-                    <div className='insuranceSection-btn'>
-                        <button>Learn More</button>
-                    </div>
-                </Link>
-            </LinkRoll>
+
+            <div className='team'>
+            <Fade bottom>
+                <img src={Team} width="500px" height="320px" alt="Company Team" loading="lazy" />
+            </Fade>
+            </div>
+
+
 
         </div>
         </>
