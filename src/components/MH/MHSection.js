@@ -6,9 +6,9 @@ import './MHSection.css'
 
 import Contact2 from '../contact/Contact2'
 
-import Card1 from '../../assets/mh-card1.jpg'
-import Card2 from '../../assets/mh-card2.jpg'
-import Card3 from '../../assets/mh-card3.jpg'
+import Card1 from '../../assets/card1.jpg'
+import Card2 from '../../assets/card2.jpg'
+import Card3 from '../../assets/card3.jpg'
 
 
 const MHSection = () => {
