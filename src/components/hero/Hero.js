@@ -24,7 +24,7 @@ const Hero = () => {
 
             <div className="hero-container">
                 <div className="content">
-                        <h1 className="animate-charcter">SACRAMENTO REHAB <br/> REHAB</h1>
+                        <h1 className="animate-charcter">SACRAMENTO<br/> REHAB</h1>
                     <Fade left>
                         <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
                     </Fade>
