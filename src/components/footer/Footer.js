@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>My Account</h3>
+                        <h3>Company</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mission'><p>Our Mission</p></Link>
@@ -40,6 +40,11 @@ const Footer = () => {
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/'><p>Programs</p></Link>
                         </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/jobs'><p>Job Assitance</p></Link>
+                        </LinkRoll>
+
                     </div>
 
 
@@ -74,10 +79,6 @@ const Footer = () => {
                         <Link to='/substance-abuse-iop'><p>Intensive Outpatient Program</p></Link>
                         </LinkRoll>
 
-                        {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/testimonials'><p>Testimonials</p></Link>
-                        </LinkRoll> */}
-
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-op'><p>Outpatient Program</p></Link>
                         </LinkRoll>
@@ -99,18 +100,7 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
-                    {/* <form>
-                        <h3>Join Our Team</h3>
-                        <input type="email" placeholder='Enter your email' />
-                        <FiMail className='mail-icon' />
-                        <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                            <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
-                            <FiGithub className='social-icon' />
-                        </div>
-                    </form> */}
+
                 </div>
                 <p className='copyright'><p>&copy; 2023 Sacramento Rehab Treatment Center. All rights reserved</p></p>
 

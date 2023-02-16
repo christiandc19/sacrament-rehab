@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.treatment-section-overview p {
+    padding: 0 1rem 1rem 1rem;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.treatment-section-overview h1 {
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.treatment-section-tile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+.treatment-section-tile .tile-image {
+    width: 500px;
+    padding: 1rem;
+}
+
+.treatment-section-tile .tile-image img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.treatment-section-tile .tile-description {
+    width: 500px;
+}
+
+.treatment-section-tile .tile-description p {
+    width: 100%;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.activity-box {
+    margin: 2rem 0;
+    padding: 1rem;
+    height: 110px;
+    width: 110px;
+    border: .5px solid rgba(180, 101, 10, 0.158);;
+    margin: auto auto;
+    border-radius: 4rem;
+    text-align: center;
+
+    -webkit-box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.75);
+}
+
+.activity-box p {
+    font-size: 14px;
+}
+
+.activity-box span {
+    font-size: 20px;
+    color: rgb(180, 101, 10);
+}
+
+.treatment-section-activities p {
+padding: 1rem;
+text-align: justify;
+}
+
+.activity-box-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    gap: 1rem;
+}
+
+.treatment-section-activities h1 {
+    text-align: center;
+}
