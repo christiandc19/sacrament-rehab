@@ -1,77 +1,60 @@
 .mission-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem;
     width: 100%;
     position: relative;
     background: rgba(255, 255, 255, 0);
 }
 
-.mission-section .content {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+.mission-section .mission-section-left {
+    width: 500px;
+}
+
+.mission-section .mission-section-left h1 {
     text-align: center;
     padding: 1rem;
 }
 
-.mission-section .content p {
-    margin: 1rem 0;
+.mission-section .mission-section-left p {
+    text-align: justify;
+    padding: 1rem;
 }
 
-.mission-section p {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+.mission-section .mission-section-right {
+    width: 500px;
+}
+
+.mission-section .mission-section-right img {
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+    padding: 0;
 }
 
 
-.mission-section h1 {
-    padding: 2rem 0;
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--primary-color);
-}
 
-.flex-right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin-top: 1rem;
-    gap: 1rem;
-}
 
-.thumbnail img {
-    margin: 5px;
-    padding: 5px;
-    box-shadow: 10px 5px 5px rgb(129, 129, 129);
-    border-radius: 1rem;
-}
 
-.thumbnail p {
-    width: 320px;
-    text-align: center;
-}
 
-.mission-section button {
-    margin: auto;
-}
 
-@media screen and (max-width: 940px) {
-    .mission-section .content {
-        width: 100%;
+
+@media screen and (max-width: 1200px) {
+
+    .mission-section .mission-section-left {
+        width: 1000px;
     }
 
-    .mission-section h1 {
-        font-size: 25px;
+    .mission-section .mission-section-left p {
+        text-align: center;
     }
-
-    .mission-section p {
-        font-size: 15px;
-    }
-
-    .thumbnail img {
-        width: 250px;
-        height: 150px;
-    }
+    
 }
 
 

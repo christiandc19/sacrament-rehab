@@ -3,19 +3,14 @@ import Fade from 'react-reveal/Fade';
 
 import './Iop.css'
 
-import Wave from '../../assets/waves.svg'
-
-
 const IOP = () => {
     return (
         <>
-        <div className='iop submenu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
-                <div className="iop-content">
+        <div className='mh-iop submenu'>
+
+                <div className="mh-iop-content">
                     <Fade top>
-                    <h2>- MENTAL HEALTH</h2>
+                    <h2>MENTAL HEALTH</h2>
                     <h1>Intensive Outpatient Program</h1>
                     </Fade>
                 </div>

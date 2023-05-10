@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(21, 3, 27, 0.521);
+    background: #783a0425;
   }
   
   .mission:before {

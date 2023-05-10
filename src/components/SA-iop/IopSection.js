@@ -1,48 +1,57 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
+import './IopSection.css'
 
-import Contact2 from '../contact/Contact2'
-
-import IopSection1 from '../../assets/IopSection1.jpg'
-
-import { FaRegStar } from 'react-icons/fa';
-
+import MenusSA from '../menusSA/MenusSA';
 
 const IopSection = () => {
   return (
     <>
-<div className='wrap'>
+<div className='iop-wrap'>
+
+<Fade right>
+        <div className="iop-wrap-left">
+        <h1 className='header'>WHAT IS PARTIAL HOSPITALIZATION PROGRAM?</h1>
+
+        </div>
+    </Fade>
+
+
     <Fade left>
-    <div className="box box-left">
-        <h1 className='header'>WHY CHOOSE AN IOP?</h1>
+    <div className="iop-wrap-right">
         <br/>
-        <p>It is common for those struggling with addiction to not respond well to  residential treatment options. An intensive outpatient program may be the best alternative, as it can offer a high level of care and more accountability (removing patients from access to drugs/alcohol, enabling peers, etc.).
-        <br /> <br/>
-        If the patient has a strong, supportive family and group of friends/peers, they will be able to undergo care with us, but also be able to live at home. </p>
-        <br />
-        <h1 className='header'>WHAT TO EXPECT THROUGHOUT THE PROGRAM</h1>
-        <br/>
-        <p>Considered our mid-tier intensive care, the program consists of 3 hours of clinical services 3-5 days per week. Patients also participate in group therapy sessions (2 per day) with any additional sessions available if deemed necessary. We also offer several other therapeutic options, such as:</p>
+        <p>A treatment plan that can be highly beneficial for those who have supportive family members at home and responsibilities that they must maintain during the week, the partial hospitalization program offers structured addiction treatment that runs several hours daily throughout the week. Through this treatment option, you can participate in treatment sessions during the day and return to your home at night. 
+        <br /> <br />
+        One of the first steps that you should take is to talk to our addiction treatment admissions team. They will provide a formal assessment to determine what level of treatment is right for your needs. For instance, we may recommend a partial hospitalization program if you meet these criteria:</p>
         <br />
         <ul>
-            <li><FaRegStar className='star'/> Art therapy</li>
-            <li><FaRegStar className='star'/> Hypnotherapy</li>
-            <li><FaRegStar className='star'/> Family Theraphy</li>
-            <li><FaRegStar className='star'/> ognitive-behavioral therapy</li>
+            <li><p>You are medically stable.</p></li>
+            <li><p>You’re not at risk of harming others or yourself.</p></li>
+            <li><p>You have difficulty functioning at school, work, or home.</p></li>
+            <li><p>You’re motivated to engage in our treatment program.</p></li>
+            <li><p>You’re experiencing co-occurring substance use disorders and mental health concerns.</p></li>
+            <li><p>You have sufficient support in your home life.</p></li>
         </ul>
-        
+        <br />
+        <p>Our evaluation doesn’t just determine what level of care you need. It also allows us to choose what therapeutic options could be part of your treatment program.</p>
+    </div>
+    </Fade>
 
-    </div>
-    </Fade>
-    <Fade right>
-    <div className="box">
-        <img src={IopSection1} width="600px" height="500px" alt="Palm Springs Rehab Logo" loading="lazy" />
-    </div>
-    </Fade>
 </div>
     
-<Contact2 />
 
+
+
+<div className='iop-wrap2'>
+    <div className='wrap2-content container'>
+    <h1>WHAT TO EXPECT THROUGHOUT THE PROGRAM</h1><br /> <br />
+<p>Consisting of 5 hours of clinical services (5 days per week), the PHP has the highest level of care we provide. Throughout treatment, patients will participate in four daily group therapy sessions, as well as individual therapy at least once a week. Additionally, all patients meet with our medical director on a weekly basis to discuss medication management (if applicable).  
+<br /> <br />
+Patients are served lunch between group sessions and can participate in weekly recovery outings as well. For anyone starting their journey to sobriety, this level of care is recommended, as it is best to have a strong foundation of support built. </p>
+</div>
+</div>
+
+<MenusSA />
     </>
   )
 }

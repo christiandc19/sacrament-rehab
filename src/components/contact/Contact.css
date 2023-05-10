@@ -14,7 +14,7 @@
   .contact-hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-contact.jpg') no-repeat center bottom/cover;
+    background: url('../../assets/menu-bg-contact-min.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -23,7 +23,7 @@
 .contact-hero .contact-hero-content {
     display: block;
     position: absolute;
-    top: 25%;
+    top: 40%;
     padding: 1rem;
 }
 

@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+.mh {
+    width: 100%;
+    height: 90vh;
+    background: rgba(21, 3, 27, 0.521);
+    position: relative;
+  }
+  
+  .mh:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/mh-mainmenu-bg-min.jpg') no-repeat center top/cover;
+    height: 90vh;
+    width: 100%;
+    z-index: -1;
+  }
+  
 
 .mh {
     display: flex;
@@ -9,20 +25,16 @@
 .mh .mh-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
-.mh h2 {
-    color: white;
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
 
 .mh h1 {
     color: white;
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 
@@ -30,11 +42,6 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
-
-.mh h2 {
-    color: white;
-    font-size: 1.5rem;
-}
 
 .mh h1 {
     font-size: 2rem;
