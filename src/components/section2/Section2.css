@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 .wrapper1 {
-    padding: 4rem 0;
-    background: #F0EFE3;
+    padding: 3rem 0 6rem  0;
+    /* background: #F0EFE3; */
 }
 
 .wrapper-content {
