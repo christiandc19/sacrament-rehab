@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="logo-footer">
               <img
                 src={logo}
-                width="80px"
+                width="160px"
                 height="60px"
                 alt="Palm Springs Rehab Logo"
                 loading="lazy"

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <div class="fullscreen">
-        <div class="content">
+        <div class="hero-content">
           <div className="caption">
             <Fade left>
               <h1>SACRAMENTO REHAB</h1>

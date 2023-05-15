@@ -61,7 +61,7 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3237920502"> +1 (323) 792-0502</a></p>
+            <p><AiOutlinePhone /><a href="tel:3237920502"> +1 (323) 329-5006</a></p>
     </div>
 
     <div class="get_form_inner2">
@@ -71,7 +71,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p>
+            <p><BsFillPinMapFill /> 7248 S Land Park Dr, STE 100, Sacramento CA 95831 </p>
     </div>
 
 </div>

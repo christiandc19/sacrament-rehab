@@ -3,7 +3,6 @@
     height: 50vh;
     position: relative;
     /* background: rgba(255, 255, 255, 0.493); */
-    margin-top: 2rem;
 }
 
 .footer:before {
@@ -37,7 +36,7 @@
 .footer .top .icon {
     font-size: 3rem;
     margin-right: 1rem;
-    color: rgb(9, 147, 189);
+    color: var(--primary-color);
     cursor: pointer;
 }
 
