@@ -108,7 +108,6 @@ const Section3 = () => {
     <div className='c3-link'>
     <p>LEARN MORE</p>
     </div>
-
     </div>
 
 

@@ -72,13 +72,14 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
 }
 
 .TherapySA-right .box {
     height: 320px;
     width: 350px;
-    background-color: rgba(24, 23, 23, 0.247);
+    background-color: rgba(12, 12, 12, 0.377);
 }
 
 
