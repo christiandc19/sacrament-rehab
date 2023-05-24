@@ -33,7 +33,7 @@ const Section3 = () => {
             </div>
 
 
-<div className='component3'>
+<div className='component3 container'>
 
 <div className='c3-left'>
     <h2>MENTAL HEALTH SERVICES </h2>
