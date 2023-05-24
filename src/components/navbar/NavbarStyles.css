@@ -55,6 +55,7 @@
     display: flex;
     padding: 1rem;
 }
+
 .navbar li {
     width: max-content;
     padding: .3rem 1rem;
@@ -71,7 +72,7 @@
 }
 
 .navbar li a:hover {
-  color: rgb(211, 124, 11);
+  color: rgb(250, 147, 13);
 }
 
   .menu-item .sub__menus li a {
@@ -126,9 +127,13 @@
 @media screen and (max-width: 940px) {
 
 
+    .nav-box {
+      justify-content: center;
+    }
+
     .navbar .hamburger {
         display: block;
-        z-index: 15;
+        z-index: 25;
     }
 
     .navbar li a {
