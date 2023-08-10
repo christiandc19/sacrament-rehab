@@ -12,7 +12,6 @@ import UMR from '../../assets/umr.png'
 import United from '../../assets/united-healthcare.png'
 import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
-import Anthem from '../../assets/anthem.png'
 
 
 
@@ -81,11 +80,7 @@ const InsuranceSection = () => {
                                 </div>
                             </Fade>
 
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Anthem}/>
-                                </div>
-                            </Fade>
+
                 </div>
             </div>
 

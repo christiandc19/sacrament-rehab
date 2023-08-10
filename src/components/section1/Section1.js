@@ -1,116 +1,86 @@
 import React from "react";
 import "./Section1.css";
+import Fade from 'react-reveal/Fade';
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
-
-import { BiBrain } from "react-icons/bi";
-import { TbPill } from "react-icons/tb";
-import { MdOutlineWorkOutline } from "react-icons/md";
+import Card1 from "../../assets/hero-slide-4-min.jpg";
+import Card2 from "../../assets/hero-slide-5-min.jpg";
+import Card3 from "../../assets/hero-slide-6-min.jpg";
 
 const Section1 = () => {
   return (
     <>
-      <div className="section1">
-        <div className="section1-content">
-          <div className="section1-box section1-box1">
-            <div className="section1-flexBox section1-flexItem1">
-              <div className="section1-icon">
-                <h3>
-                  <BiBrain />
-                </h3>
-              </div>
-              <div className="title">
-                <h1>Mental Disorder Treatment</h1>
-              </div>
-            </div>
 
-            <div className="section1-caption section1-caption1">
-              <p>
-                Depending on your needs, we offer treatment for co-occurring
-                disorders that can address both mental health and addiction
-                disorders at the same time.
-              </p>
 
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/mental-health">
-                  <button>LEARN MORE</button>
-                </Link>
-              </LinkRoll>
-            </div>
-          </div>
+<div className="section1-bg">
 
-          <div className="section1-box section1-box2">
-            <div className="section1-flexBox section1-flexItem2">
-              <div className="section1-icon">
-                <h3>
-                  <TbPill />
-                </h3>
-              </div>
-              <div className="title">
-                <h1>Substance Addiction Treatment</h1>
-              </div>
-            </div>
+<div className="section1-header container">
+      <h1>Sacramento Rehab Treatment Center <br /> offers various Mental Health and Substance Abuse Addiction programs</h1>
+    </div>
 
-            <div className="section1-caption section1-caption2">
-              <p>
-                No matter what type of addiction or mental health condition you
-                are dealing with, there’s something for everyone at Sacramento
-                Rehab.
-              </p>
 
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/substance-abuse">
-                  <button>LEARN MORE</button>
-                </Link>
-              </LinkRoll>
-            </div>
-          </div>
+  <div className="section1-content">
 
-          <div className="section1-box section1-box3">
-            <div className="section1-flexBox section1-flexItem3">
-              <div className="section1-icon">
-                <h3>
-                  <MdOutlineWorkOutline />
-                </h3>
-              </div>
-              <div className="title">
-                <h1>Job Assistance Program</h1>
-              </div>
-            </div>
+<div className="section1 container">
 
-            <div className="section1-caption section1-caption3">
-              <p>
-                We offer a variety of employment tools and resources to help you
-                land on your feet and get hired at a great company in recovery.
-              </p>
-
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/jobs">
-                  <button>LEARN MORE</button>
-                </Link>
-              </LinkRoll>
-            </div>
-          </div>
-        </div>
+<Fade left>
+<div className="card">
+  <img class="card-img-top" src={Card1} alt="Mental Health" loading="lazy"/>
+  <div class="card-body">
+    <h5 class="card-title">SUBSTANCE ABUSE PROGRAMS</h5>
+    <p class="card-text">Treatment options for a multitude of substance use disorders. Whether you suffer from alcohol, prescription drugs, or other substance abuse disorders, find better healing with us.</p>
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <Link to="/substance-abuse">
+      <div className="card-btn">
+        <button>Learn More</button>
       </div>
+    </Link>
+    </LinkRoll>
+  </div>
+  </div>
+  </Fade>
+
+
+<Fade bottom>
+<div className="card">
+  <img class="card-img-top" src={Card2} alt="Mental Health" loading="lazy"/>
+  <div class="card-body">
+    <h5 class="card-title">MENTAL HEALTH PROGRAMS</h5>
+    <p class="card-text">We provide access to specific mental health services offered by a multidisciplinary team. It is for adults, teenagers and children who present symptoms of the most common mental disorders, such as an anxiety disorder or depression.</p>
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <Link to="/mental-health">
+    <div className="card-btn">
+        <button>Learn More</button>
+      </div>
+    </Link>
+    </LinkRoll>
+  </div>
+</div>
+</Fade>
+
+
+
+<Fade right>
+<div className="card">
+  <img class="card-img-top" src={Card3} alt="Mental Health" loading="lazy"/>
+  <div class="card-body">
+    <h5 class="card-title">JOB ASSISTANCE PROGRAMS</h5>
+    <p class="card-text">Our most unique feature sets you up with interview clothes, interview skills, resume assistance, and all the resources you need to get a job with a great company.</p>
+    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <Link to="/jobs">
+      <div className="card-btn">
+        <button>Learn More</button>
+      </div>
+    </Link>
+    </LinkRoll>
+  </div>
+</div>
+</Fade>
+
+</div>
+</div>
+</div>
+
     </>
   );
 };

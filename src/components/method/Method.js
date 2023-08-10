@@ -12,7 +12,7 @@ const Method = () => {
 
                     <div className="method-content">
                         <Fade left>
-                                <h1>OUR METHOD</h1>
+                                <h1>OUR TREATMENT</h1>
                         </Fade>
 
                     </div>

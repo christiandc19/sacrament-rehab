@@ -1,7 +1,7 @@
 import React from 'react'
 import './SASection.css'
-import Contact2 from '../contact/Contact2'
-import MenusSA from '../menusSA/MenusSA';
+import Menu1 from '../menus/Menu1';
+import Menu2 from '../menus/Menu2';
 
 
 
@@ -9,12 +9,9 @@ import MenusSA from '../menusSA/MenusSA';
 const MHSection = () => {
   return (
     <>
+<Menu1 />
+<Menu2 />
 
-
-
-
-<MenusSA />
-<Contact2 />
 
     </>
   )

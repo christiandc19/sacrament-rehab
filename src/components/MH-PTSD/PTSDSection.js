@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../contact/ContactForm'
+import Contact2 from '../contact/Contact2'
 
 import './PTSDSection.css'
 
@@ -14,11 +14,8 @@ const PTSDSection = () => {
                 PTSD can affect anyone, regardless of external factors like age, race, or gender. It is typically more severe if the traumatic event was unexpected, caused by others in your life, or involved a serious perceived threat to your life.
                 </p>
 </div>
-        <div className="contact2-header contact2-container">
-            <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
-        </div>
-<ContactForm />
+
+<Contact2 />
 
     </>
   )

@@ -12,9 +12,19 @@ const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        // Popup message after send button is clicked
+        const feedbackEl = document.querySelector(".feedback");
+        feedbackEl.setAttribute("class", "feedback");
+        setTimeout(function() {
+        feedbackEl.setAttribute("class", "feedback hidden");
+        }, 4000);
+
+
+
+
 
         //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -31,7 +41,7 @@ const ContactForm = () => {
 
     <div className="contact2-header contact2-container">
         <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Mental Health Support team is available 24 hours a day 7 Days a week.</p>
+        <p>Our support team is available to assist you.</p>
     </div>
 
 
@@ -51,13 +61,13 @@ const ContactForm = () => {
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3237920502"> +1 (323) 329--5006</a></div>
+          <div class="text-one"><a href="tel:3233295006"> +1 (323) 329-5006</a></div>
         </div>
 
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one">info@domainName.com</div>
+          <div class="text-one">info@sacramentorehab.biz</div>
         </div>
       </div>
 
@@ -77,8 +87,12 @@ const ContactForm = () => {
         <div class="input-box message-box">
         <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
 
-        </div>
+        </div >
         <input className="contact-btn" type="submit" value="Submit" />
+        <div className="textarea2 feedback hidden">
+        <textarea name="message2" cols="30" rows="3" required>Message Sent to Sacrament !</textarea>
+        </div>
+
       </form>
     </div>
     </div>

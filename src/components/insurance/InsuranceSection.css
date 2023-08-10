@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     width: 100%;
     padding: 2rem 0;
 }
@@ -62,10 +62,6 @@
 
     .team img {
         width: 350px;
-    }
-
-    .insurance-thumbnail {
-        width: 100px;
     }
 
 }

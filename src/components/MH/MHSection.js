@@ -1,8 +1,7 @@
 import React from 'react'
 import './MHSection.css'
-
-import Contact2 from '../contact/Contact2'
-import Menus from '../menus/Menus';
+import Menu1 from '../../components/menus/Menu1';
+import Menu3 from '../../components/menus/Menu3';
 
 
 
@@ -11,8 +10,8 @@ const MHSection = () => {
   return (
     <>
 
-<Menus />
-<Contact2 />
+<Menu1 />
+<Menu3 />
 
     </>
 

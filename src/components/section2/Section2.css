@@ -1,45 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 .wrapper1 {
-    padding: 3rem 0 6rem  0;
-    /* background: #F0EFE3; */
+    padding: 5rem 0 ;
+    background-color: #5b7c99;
+
 }
 
 .wrapper-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
 }
 
+
 .wrapper-content-left {
-    width: 50%;
-    text-align: center;
+    width: 40%;
+    margin: auto;
 }
 
 .wrapper-content-left img {
-    width: 80%;
+    width: 100%;
 }
 
 .wrapper-content-right {
-    width: 600px;
+    width: 50%;
     margin: auto;
-    padding: 0 2rem;
 }
 
 
+.wrapper-content-right p {
+    color: white;
+}
+
 .wrapper-content-right h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #E2AB7F;
 }
 
 .wrapper-content-right h1 {
     text-transform: uppercase;
-    color: #6D4321;
+    color: rgb(22, 21, 21);
     font-size: 1rem;
     letter-spacing: 8px; 
 }
-
-
 
 
 @media screen and (max-width:1250px)  {

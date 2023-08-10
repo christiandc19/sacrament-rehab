@@ -3,7 +3,7 @@
 
 .contact-hero {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +23,8 @@
 .contact-hero .contact-hero-content {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 30%;
+    left: 10%;
     padding: 1rem;
 }
 
@@ -50,6 +51,12 @@
 }
 
 .contact-hero h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
+
+.contact-hero .contact-hero-content {
+    left: 0%;
+}
+
+
 }

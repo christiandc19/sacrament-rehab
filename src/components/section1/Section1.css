@@ -1,6 +1,62 @@
+.section1-bg {
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .section1-bg:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/hero-bg-2.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1rem;
+}
+
+.card {
+    width: 380px;
+    height: auto;
+    border: none;
+    background-color: #759eb8;
+    color: rgb(243, 235, 235) ;
+    -webkit-box-shadow: 0px 0px 38px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 38px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 38px -10px rgba(0,0,0,0.75);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-btn button {
+    background-color: #5b7c99;
+    border: none;
+    border-radius: 5px;
+}
 
 .section1-content {
-    display: flex;
+    text-align: center;
+    padding: 0 0 10rem 0;
+}
+
+.section1-header {
+    padding: 5rem 0 3rem 0;
+    text-align: center;
+}
+
+.section1-header h1 {
+    color: var(--primary-text);
+    font-size: 1.5rem;
 }
 
 .section1-box {
@@ -132,4 +188,11 @@
         margin: 1rem 0;
     }
 
+}
+
+
+@media screen and (max-width:700px) {
+    .card {
+        width: 90%;
+}
 }

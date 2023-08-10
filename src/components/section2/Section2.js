@@ -1,22 +1,28 @@
 import React from "react";
 import "./Section2.css";
+import Fade from 'react-reveal/Fade';
 
-import wrapper1 from "../../assets/wrapper1-min.jpg";
+
+import wrapper1 from "../../assets/wrapper1-min.png";
 
 const Section2 = () => {
   return (
     <>
       <div className="wrapper1 ">
         <div className="wrapper-content container">
+          
+        <Fade left>
           <div className="wrapper-content-left">
             <img src={wrapper1} alt="nurse" loading="lazy" />
           </div>
+        </Fade>
 
+        <Fade right>
           <div className="wrapper-content-right">
             <h1>What We Do</h1> <br />
             <h2>
-              <i>We care about your mental health.</i>
-            </h2>{" "}
+              <i>We help people suffering from Substance Abuse & Mental Health conditions.</i>
+            </h2>
             <br />
             <p>
               At Sacramento Rehab, we offer different levels of care based on
@@ -25,7 +31,7 @@ const Section2 = () => {
               partial hospitalization program (PHP). <br /> <br />
               You can be confident that our caring and professional staff will
               recommend the right level of care for you or your loved one.
-            </p>{" "}
+            </p>
             <br />
             <h1>Treatment</h1> <br />
             <p>
@@ -40,6 +46,8 @@ const Section2 = () => {
               and signed off on by the clinical director.
             </p>
           </div>
+      </Fade>
+      
         </div>
       </div>
     </>

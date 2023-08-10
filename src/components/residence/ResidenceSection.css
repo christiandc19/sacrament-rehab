@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.flex-right img {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.281);
+}
+
+.residence-section-header {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.residence-section-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.residence-section-header p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.flex-right {
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
+@media screen and (max-width:700px) {
+  .flex-right img {
+    width: 350px;
+  }
+}

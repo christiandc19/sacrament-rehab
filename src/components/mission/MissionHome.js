@@ -6,7 +6,7 @@ const MissionHome = () => {
     <>
       <div className="mission-home">
         <div className="mission-home-content container">
-          <h1>SACRAMENTO REHAB'S MISSION</h1>
+          <h1>OUR MISSION</h1>
           <p>
             Provide every individual a quiet, calm, and safe place to begin the
             journey. It is our philosophy that in order to reduce the incidence

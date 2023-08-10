@@ -7,15 +7,14 @@
     height: auto;
     position: relative;
     justify-content: center;
-    background-color: rgb(255, 246, 237);
-    margin-top: 5rem;
+    /* background-color: #5b7c99; */
 
 }
   
   .TherapyMH:before {
     content: '';
     position: absolute;
-    /* background: url('../../assets/therapyMH-min.jpg') no-repeat center top/cover; */
+    background: url('../../assets/hero-bg-3.png') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -71,23 +70,43 @@
 }
 
 .TherapyMH-right .box {
-    height: 320px;
+    height: auto;
     width: 350px;
-    background-color: rgb(241, 230, 219);
+    background-color: #759eb8;
     margin: 1rem;
+    border-radius: 1rem;
 }
+
+.box-icon img {
+    width: 30%;
+}
+
+.box2 .box-icon img {
+    width: 40%;
+}
+
+.box4 .box-icon img {
+    width: 40%;
+}
+
+
+
+.box3 .box-icon img {
+    width: 40%;
+}
+
 
 
 /* box 1 */
 
 .box1 .box-content h1 {
-    color: rgb(26, 25, 25);
+    color: rgb(236, 229, 229);
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
 .box1 .box-content p {
-    color: rgb(26, 25, 25);
+    color: rgb(236, 229, 229);
     text-align: center;
     padding: 1rem;
 }
@@ -95,13 +114,13 @@
 /* box 2 */
 
 .box2 .box-content h1 {
-    color: rgb(26, 25, 25);
+    color: rgb(236, 229, 229);
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
 .box2 .box-content p {
-    color: rgb(26, 25, 25);
+    color: rgb(236, 229, 229);
     text-align: center;
     padding: 1rem;
 }
@@ -109,13 +128,13 @@
 /* box 3 */
 
 .box3 .box-content h1 {
-    color: rgb(26, 25, 25);
+    color: rgb(236, 229, 229);
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
 .box3 .box-content p {
-    color: rgb(26, 25, 25);
+    color: rgb(236, 229, 229);
     text-align: center;
     padding: 1rem;
 }
@@ -123,13 +142,13 @@
 /* box 4 */
 
 .box4 .box-content h1 {
-    color: rgb(26, 25, 25);
+    color: rgb(236, 229, 229);
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
 .box4 .box-content p {
-    color: rgb(26, 25, 25);
+    color: rgb(236, 229, 229);
     text-align: center;
     padding: 1rem;
 }
@@ -143,62 +162,12 @@
     padding: 1rem;
 }
 
-.TherapyMH-cta {
-    position: relative;
-    padding: 12px 18px;
-    transition: all 0.2s ease;
+.TherapyMH-btn button {
+    background-color: white;
     border: none;
-    background: none;
-    justify-content: center;
-   }
-   
-   .TherapyMH-cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 50px;
-    background: #783B04;
-    width: 45px;
-    height: 45px;
-    transition: all 0.3s ease;
-   }
-   
-   .TherapyMH-cta span {
-    position: relative;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: #171818;
-   }
-   
-   .TherapyMH-cta svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #171818;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-   }
-   
-   .TherapyMH-cta:hover:before {
-    width: 100%;
-    background: #783B04;
-   }
-   
-   .TherapyMH-cta:hover svg {
-    transform: translateX(0);
-   }
-   
-   .TherapyMH-cta:active {
-    transform: scale(0.95);
-   }
+    border-radius: 5px;
+    color: var(--primary-text);
+}
 
 
 @media screen and (max-width:1200px) {
@@ -232,8 +201,6 @@
     .TherapyMH-right  .box{
         width: 90vw;
         flex-wrap: wrap;
-        height: 180px;
-        background-color: rgba(24, 23, 23, 0.014);
     }
 
     .TherapyMH .TherapyMH-left h1{
@@ -257,9 +224,7 @@
         padding: 3rem 0 0 0;
     }
 
-    .box .box-content h1 {
-        padding: 0 0 .5rem 0;
-    }
+
 
     .box-icon {
         font-size: 4rem;

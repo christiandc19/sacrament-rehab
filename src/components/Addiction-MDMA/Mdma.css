@@ -3,16 +3,16 @@
 
 .mdma {
     width: 100%;
-    height: 80vh;
-    background: #17362da4;
+    height: 100vh;
+    background: #08080888;
     position: relative;
   }
   
   .mdma:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
-    height: 80vh;
+    background: url('https://sunset-rehab.s3.us-west-1.amazonaws.com/mdma-addiction.jpg') no-repeat center center/cover;
+    height: 100%;
     width: 100%;
     z-index: -1;
   }
@@ -27,7 +27,7 @@
 .mdma .mdma-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
@@ -45,7 +45,7 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:700px) {
 
 .mdma h1 {
     font-size: 2rem;
