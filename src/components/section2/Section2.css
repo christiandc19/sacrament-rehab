@@ -64,7 +64,7 @@
 
 @media screen and (max-width:940px) {
     .wrapper-content-left {
-        width: 100vw;
+        width: 90%;
     }
     .wrapper-content-left img {
         padding: 2rem;
