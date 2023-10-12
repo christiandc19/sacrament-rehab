@@ -6,7 +6,7 @@ import "./Menu1.css";
 
 import Card1 from "../../assets/card1.jpg";
 import Card2 from "../../assets/card2.jpg";
-import Card3 from "../../assets/card3.jpg";
+import Card3 from "../../assets/card3.webp";
 
 const Menu1 = () => {
   return (

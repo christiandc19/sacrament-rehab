@@ -70,7 +70,7 @@ const Hero = () => {
             <h3>"Your journey begins here"</h3>
             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
             <Link to="/treatment">
-            <div className="card-btn">
+            <div className="hero-btn">
             <button>Learn More</button>
             </div>
             </Link>

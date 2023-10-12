@@ -14,7 +14,7 @@
   .insurance:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-insurance-min.jpg') no-repeat center top/cover;
+    background: url('../../assets/menu-bg-insurance-min.webp') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

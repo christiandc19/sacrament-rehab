@@ -4,7 +4,7 @@ import Contact2 from "../contact/Contact2";
 import TreatmentImage1 from "../../assets/treatment-1.jpg";
 import TreatmentImage2 from "../../assets/treatment-2.jpg";
 
-import Activities from "../../assets/activities-min.png";
+import Activities from "../../assets/activities-min.webp";
 
 import { FaRegStar } from "react-icons/fa";
 

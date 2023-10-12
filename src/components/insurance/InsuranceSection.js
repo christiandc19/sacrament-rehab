@@ -3,17 +3,11 @@ import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
 import InsuranceLogos from './InsuranceLogos'
 
-import Aetna from '../../assets/aetna.png'
-import Beacon from '../../assets/beacon.png'
-import Bluecross from '../../assets/bluecross.png'
-import Cigna from '../../assets/cigna.png'
-import Horizon from '../../assets/horizon.png'
-import UMR from '../../assets/umr.png'
-import United from '../../assets/united-healthcare.png'
-import Optima from '../../assets/optima.png'
-import Optum from '../../assets/optum.png'
-
-
+import Aetna from '../../assets/aetna.webp'
+import Beacon from '../../assets/beacon.webp'
+import Bluecross from '../../assets/bluecross.webp'
+import Cigna from '../../assets/cigna.webp'
+import Horizon from '../../assets/horizon.webp'
 
 const InsuranceSection = () => {
     return (
@@ -56,29 +50,6 @@ const InsuranceSection = () => {
                                 </div>
                             </Fade>
 
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={UMR}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={United}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Optima}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Optum}/>
-                                </div>
-                            </Fade>
 
 
                 </div>

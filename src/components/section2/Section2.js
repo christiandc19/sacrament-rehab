@@ -3,7 +3,7 @@ import "./Section2.css";
 import Fade from 'react-reveal/Fade';
 
 
-import wrapper1 from "../../assets/wrapper1-min.png";
+import wrapper1 from "../../assets/wrapper1-min.webp";
 
 const Section2 = () => {
   return (

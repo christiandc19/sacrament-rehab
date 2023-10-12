@@ -8,7 +8,7 @@ import Fade from "react-reveal/Fade";
 
 import Card1 from "../../assets/card1.jpg";
 import Card2 from "../../assets/card2.jpg";
-import Card3 from "../../assets/card3.jpg";
+import Card3 from "../../assets/card3.webp";
 
 const Cards = () => {
   return (
